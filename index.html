@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5"
+    />
+    <title>Frontend Assignment - Simplotel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header class="site-header">
+      <div class="nav-inner container">
+        <!-- Brand (optional, PDF mein visible nahi, isliye subtle rakha hai) -->
+        <div class="brand" aria-hidden="true"></div>
+
+        <!-- Mobile nav toggle (CSS-only hamburger) -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+          <span></span>
+        </label>
+
+        <nav class="main-nav">
+          <a href="#home">Home</a>
+          <a href="#order">Order</a>
+          <a href="#food">Food</a>
+          <a href="#restaurant">Restaurant</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-inner container">
+          <div class="hero-text">
+            <h1>LOREM IPSUM</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              id est vitae dolor rhoncus tristique. Maecenas metus quam, rhoncus
+              euismod lorem in, sollicitudin viverra eros. Donec dictum luctus
+              quam ut tristique. Curabitur nec faucibus purus. Quisque congue
+              sem nec justo mollis, in tincidunt erat pretium. Sed pulvinar,
+              massa ac porta viverra.
+            </p>
+            <a href="#" class="btn primary-btn">Click Me</a>
+          </div>
+
+          <div class="hero-image">
+            <img
+              src="images/pexels-robin-stickel-70497.jpg"
+              alt="Burger and fries on a plate"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SECOND SECTION ================= -->
+      <section class="gallery-section" id="order">
+        <div class="gallery-inner container">
+          <div class="gallery-grid">
+            <img src="images/pexels-rachel-claire-6752433.jpg" alt="Restaurant signboard" class="img-1" />
+            <img src="images/pexels-mister-mister-3434523.jpg" alt="Food plate top view" class="img-2"/>
+            <img src="images/pexels-eva-bronzini-6141651.jpg" alt="Street cafe view" class="img-3"/>
+            
+          </div>
+
+          <div class="gallery-text-card">
+            <span class="eyebrow">LOREM IPSUM</span>
+            <h2>LOREM IPSUM<br />SET ADEMIR</h2>
+            <a href="#" class="link-btn">
+              Click
+              <span class="arrow" aria-hidden="true">➜</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
